@@ -30,9 +30,18 @@
 ---
 
 ## EXPERIENCE
-|                                                                                            |                      |
-| :---                                                                                       |                 ---: |
-| <h3>Software Engineering Intern - Intuit ([Argo Project](https://argoproj.github.io))</h3> | *May 2020 - Present* |
+|                                                                                            |                |
+| :---                                                                                       |           ---: |
+| <h3>Software Engineer - Intuit ([Argo Project](https://argoproj.github.io))</h3> | *January 2021 - Present* |
+
+#### *Kubernetes, Docker, Golang, React, TypeScript, Google Cloud Platform*
+
+- Work on Argo CD and Argo Rollouts
+- Developing K8S Custom Resource and Controller to extend Argo CD user interface
+
+|                                                                                            |                            |
+| :---                                                                                       |                       ---: |
+| <h3>Software Engineering Intern - Intuit ([Argo Project](https://argoproj.github.io))</h3> | *May 2020 - December 2020* |
 
 #### *Kubernetes, Docker, Golang, React, TypeScript, Google Cloud Platform*
 
