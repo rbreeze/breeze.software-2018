@@ -164,9 +164,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"akre@npm:^0.0.15":
-  version: 0.0.15
-  resolution: "akre@npm:0.0.15"
+"akre@npm:^0.0.16":
+  version: 0.0.16
+  resolution: "akre@npm:0.0.16"
   dependencies:
     autoprefixer: ^10.3.7
     chokidar: ^3.5.2
@@ -178,7 +178,7 @@ __metadata:
     tailwindcss: ^2.2.16
   bin:
     akre: bin/akre.js
-  checksum: 0271021ea969d78668f1c45db0e3fb0f602f3bb29865e879158b6c67acb7117fffc512a9f3d3b727630f4443d67981428562fcd0b0014b316060d5a77cc6e5ab
+  checksum: df55bc2faf4aaad5bab9851d40983eaf92545e6f3f60f1dfd94e8bcbfe0585e64ff58bc05654c06be2cdb64c205460a9fe02ef13f8346c65885c38db03c2f798
   languageName: node
   linkType: hard
 
@@ -325,7 +325,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bs2@workspace:."
   dependencies:
-    akre: ^0.0.15
+    akre: ^0.0.16
   languageName: unknown
   linkType: soft
 
