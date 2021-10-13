@@ -1,0 +1,34 @@
+mission: |
+  I believe in 
+  <b>kindness</b>, 
+  <b>simplicity</b>, 
+  and
+  <b>hard work</b>.
+position: |
+  I'm a Software Engineer at 
+  <a href='https://akuity.io' target='_blank'>Akuity</a>
+  and a maintainer of the <a href='https://argoproj.io' target='_blank'>Argo Project</a>.
+education: |
+  I have a Bachelor's Degree in Computer Science from <a href='https://www.csuchico.edu' target='_blank'>CSU Chico</a>.
+email: |
+  You can send me an email at <a href='mailto:remington@breeze.software'>remington@breeze.software</a>.
+content: |
+  <p>As an experienced full-stack developer, I am an expert at building and deploying web applications. I have expertise in many languages and frameworks, both tried-and-true and cutting-edge. As a maintainer of Argo, an open-source suite of Kubernetes-native application delivery software, I have contributed significant features to 
+
+  <a href='https://github.com/argoproj/argo-cd' target='_blank'>Argo CD</a>
+  and 
+  <a href='https://github.com/argoproj/argo-rollouts' target='_blank'>Argo Rollouts</a>,
+
+  including an API Server with UI Dashboard and an Extensions framework.</p>
+
+  <p>Right now, I am interested in removing friction from the web developer experience. Technologies that excite me in this space are 
+    <a href='https://hotwire.dev' target='_blank'>Hotwire</a>, 
+    <a href='https://yarnpkg.com' target='_blank'>Yarn 2 with PnP</a>, 
+    <a href='https://tailwindcss.com' target='_blank'>Tailwind</a>, 
+    <a href='https://webassembly.org' target='_blank'>WebAssembly</a>, and 
+    <a href='https://esbuild.github.io' target='_blank'>esbuild</a>. 
+  </p>
+
+  <p>My other interests include reading, drawing, long-distance running, aviation, and photography. I have three furry children: two cats and a very large dog. </p>
+
+  <p>This website was built with <a href='https://github.com/rbreeze/akre' target='_blank'>Akre</a>, a static site utility I wrote.</p>

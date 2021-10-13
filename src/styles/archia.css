@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Archia";
+  src: url("/assets/fonts/Archia-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Archia";
+  src: url("/assets/fonts/Archia-Bold") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Archia";
+  src: url("/assets/fonts/Archia-Medium") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Archia";
+  src: url("/assets/fonts/Archia-SemiBold") format("opentype");
+  font-weight: 600;
+}

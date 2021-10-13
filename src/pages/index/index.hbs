@@ -1,0 +1,33 @@
+{{#>layout}}
+
+<div class='mt-8 pb-10 w-max max-w-full mx-auto'>
+
+    <div class='mx-auto flex flex-wrap items-center justify-center mb-3 lg:flex-nowrap'>
+        <img src='/assets/images/profile-white-web.jpg' class='lg:h-48 lg:mr-4 h-64 mr-0' />
+        <h1 class='text-5xl font-bold p-5'>
+            Hi, I'm <div class='text-indigo-500 text-6xl'>Remington <br />Breeze.</div>
+        </h1>
+    </div>
+
+    <div class='lg:px-0 px-5'>
+        <p class='mb-2 text-3xl font-medium'>{{{mission}}}</p>
+        <div class='text-lg'>
+            <p>{{{position}}}</p>
+            <p>{{{education}}}</p>
+            <p>{{{email}}}</p>
+        </div>
+
+        <div class='flex items-center justify-center my-6 flex-wrap gap-y-5'>
+            <a href='{{globals.github}}' target='_blank' class='button mx-2'>GitHub</a>
+            <a href='{{globals.linkedin}}' target='_blank' class='button mx-2'>LinkedIn</a>
+            <a href='/resume' target='_blank' class='button mx-2'>Resumé</a>
+        </div>
+
+        <div class='flex'>
+            <div class='w-0 flex-grow space-y-5'>{{{content}}}</div>
+        </div>
+
+    </div>
+</div>
+
+{{/layout}}
