@@ -1,107 +1,75 @@
-<!-- TESTING -->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
-<!-- HEAD --> 
-<head> 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179495993-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-179495993-1');
-  </script>
-  <title> Remington Breeze </title>
-  <!-- Viewport --> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Font Awesome --> 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">  
-  <!-- STYLE -->
-  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+<head>
+    <title>Remington Breeze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/assets/favicon.ico">
+    <meta name="theme-color" content="#4b40cc">
+    <link rel='stylesheet' href='/assets/css/main.css' type='text/css' />
 </head>
 
-<!-- BODY --> 
-<body> 
-  <div class="container">
-    <div class="intro">
-      <img src="./assets/images/profiles/default.png" class="profile-pic"/>
-      <h1> 
-        Hi, I'm 
-        <span class="name-container"> 
-          <span class="name">Remington Breeze</span>. 
-        </span>
-      </h1>
-    </div>
-    <h2> I'm a 
-      <strong>Software Engineering Intern</strong> 
-      at Intuit working on 
-      <a href="https://github.com/argoproj/argo" target="_blank">Argo</a>. 
-    </h2>
-    I have a bachelor's degree in Computer Science from 
-    <a href="https://www.csuchico.edu" target="_blank">CSU Chico</a>.
-    <h3> 
-      <br>
-      <a href="mailto:remington@breeze.software">
-        <i class="far fa-envelope"></i> remington@breeze.software
-      </a>
-    </h3>
-    <div class="links">
-      <a href="https://github.com/rbreeze" target="_blank" class="btn"> 
-        <i class="fab fa-github"></i>
-        My GitHub
-      </a>
-      <a href="resume" target="_blank" class="btn">
-        <i class="fas fa-file-alt"></i>
-        My Resume
-      </a>
-    </div>
-
-    <div>I'm an experienced <strong>web developer</strong> and an expert at creating full stack web applications with RESTful Node.js API's and frontend Javascript frameworks. Right now, I am learning more about Kubernetes, Go, React and GraphQL.</div>
+<body>
     
-    <div> My favorite tools to use are Node, Vue.js, Go and Common Lisp.</div>
-
-    <div class="beliefs">
-      <strong>  I believe in simplicity, hard work, and kindness. </strong>
-    </div>
-
-    <div> Projects I'm most proud of: </div>
-    <div class="projects links">
-      <a href="https://racebase.run" target="_blank" class="btn">RaceBase</a> </li>
-      <a href="https://techlore.tech" target="_blank" class="btn">Techlore Website*</a>
-      <a href="https://github.com/rbreeze/PaceCalc" target="_blank" class="btn">PaceCalc</a>
-    </div>
-
-    <div class="asterisk">*Major update coming soon</div>
+    <div class='mt-8 pb-10 w-max max-w-full mx-auto'>
     
-    <div class="more-description"> More detailed information: </div>
-    <div class="more links">
-      <a href="documents/Remington Breeze - Projects.pdf" target="_blank">
-        Projects
-      </a>
-      <a href="documents/Remington Breeze - Experience.pdf" target="_blank">
-        Experience
-      </a>
-      <a href="documents/Remington Breeze - Coursework.pdf" target="_blank">
-        Coursework
-      </a>
+        <div class='mx-auto flex flex-wrap items-center justify-center mb-3 lg:flex-nowrap'>
+            <img src='/assets/images/profile-white-web.jpg' class='lg:h-48 lg:mr-4 h-64 mr-0' />
+            <h1 class='text-5xl font-bold p-5'>
+                Hi, I'm <div class='text-indigo-500 text-6xl'>Remington <br />Breeze.</div>
+            </h1>
+        </div>
+    
+        <div class='lg:px-0 px-5'>
+            <p class='mb-2 text-3xl font-medium'>I believe in 
+    <b>kindness</b>, 
+    <b>simplicity</b>, 
+    and
+    <b>hard work</b>.
+    </p>
+            <div class='text-lg'>
+                <p>I'm a Software Engineer at 
+    <a href='https://akuity.io' target='_blank'>Akuity</a>
+    and a maintainer of the <a href='https://argoproj.io' target='_blank'>Argo Project</a>.
+    </p>
+                <p>I have a Bachelor's Degree in Computer Science from <a href='https://www.csuchico.edu' target='_blank'>CSU Chico</a>.
+    </p>
+                <p>You can send me an email at <a href='mailto:remington@breeze.software'>remington@breeze.software</a>.
+    </p>
+            </div>
+    
+            <div class='flex items-center justify-center my-6 flex-wrap gap-y-5'>
+                <a href='https://github.com/rbreeze' target='_blank' class='button mx-2'>GitHub</a>
+                <a href='https://linkedin.com/in/rbreeze' target='_blank' class='button mx-2'>LinkedIn</a>
+                <a href='/resume' target='_blank' class='button mx-2'>Resumé</a>
+            </div>
+    
+            <div class='flex'>
+                <div class='w-0 flex-grow space-y-5'><p>As an experienced full-stack developer, I am an expert at building and deploying web applications. I have expertise in many languages and frameworks, both tried-and-true and cutting-edge. As a maintainer of Argo, an open-source suite of Kubernetes-native application delivery software, I have contributed significant features to 
+    
+    <a href='https://github.com/argoproj/argo-cd' target='_blank'>Argo CD</a>
+    and 
+    <a href='https://github.com/argoproj/argo-rollouts' target='_blank'>Argo Rollouts</a>,
+    
+    including an API Server with UI Dashboard and an Extensions framework.</p>
+    
+    <p>Right now, I am interested in removing friction from the web developer experience. Technologies that excite me in this space are 
+      <a href='https://hotwire.dev' target='_blank'>Hotwire</a>, 
+      <a href='https://yarnpkg.com' target='_blank'>Yarn 2 with PnP</a>, 
+      <a href='https://tailwindcss.com' target='_blank'>Tailwind</a>, 
+      <a href='https://webassembly.org' target='_blank'>WebAssembly</a>, and 
+      <a href='https://esbuild.github.io' target='_blank'>esbuild</a>. 
+    </p>
+    
+    <p>My other interests include reading, drawing, long-distance running, aviation, and photography. I have three furry children: two cats and a very large dog. </p>
+    
+    <p>This website was built with <a href='https://github.com/rbreeze/akre' target='_blank'>Akre</a>, a static site utility I wrote.</p>
     </div>
-
-    <a class="btn" id="appearance">
-      <span class="btn-content">
-        <i class="fas fa-moon"></i> Dark Mode
-      </span>
-      <span class="btn-content"> 
-        <i class="fas fa-sun"></i> Light Mode
-      </span>
-    </a>
-
-  </div>
-
-  <script type='module'>
-    import * as dm from './darkmode.js';
-    dm.Init();
-    document.getElementById('appearance').onclick = dm.ChangeTheme;
-  </script>
+            </div>
+    
+        </div>
+    </div>
+    
 </body>
+
 </html>
